@@ -1,0 +1,162 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+
+#header {
+	background-color: #f1f1f1;
+	background-position: center;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+/*------SLIDER-------*/
+.slider {
+	width: 100%;
+	padding: 0 0;
+	
+}
+
+.carousel {
+	box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
+}
+
+
+
+.scroll-bar
+{
+	animation: mover is infinite alternate;
+}
+
+/*------about------*/
+.about
+{
+	width: 100%;
+	padding-top: 175px;
+	margin-bottom: -130px;
+}
+.col-md-6
+{
+	color: black;
+	background-color: #f1f1f1;
+}
+.profile-img
+{
+	height: 800px;
+	width: 350px;
+	float: left;
+}
+
+/* cnacer types */
+.container-flex{
+	width: 100%;
+	height: 600px;
+	flex-direction: row;
+	display: flex;
+	 justify-content: space-around;
+	overflow: scroll;
+}
+
+/*Cancer info */
+.resume
+{
+	margin-top: -50px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background: #f9f9f9;
+}
+.resume h3
+{
+	margin-bottom: 50px;
+}
+.timeline
+{
+	list-style-type: none;
+	position: relative;
+}
+.timeline:before
+{
+	content: '';
+	background: red;
+	display: inline-block;
+	position: absolute;
+	left: 29px;
+	width: 5px;
+	height: 100%;
+	z-index: 1;
+}
+.timeline li
+{
+	margin-top: 2opx;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	background: #fff;
+}
+.timeline li h3
+{
+	background-color: #000;
+	padding: 5px 0px 5px 20px;
+	color: #fff;
+	font-size: 15px;
+}
+
+
+/*----contacts----*/
+.contact
+{
+	width: 100%;
+	padding-top: 50px;
+	background-color: rgba(10,10,10,0.7);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	position: absolute;
+}
+.contact .row
+{
+	padding: 30px 0;
+	font-size: 22px;
+}
+.contact .col-md-4 .fa
+{
+	padding: 10px;
+	font-size: 40px;
+}
+.contact .btn
+{
+	padding: 10px 25px 10px 25px;
+	margin: 5px;
+	border-radius: 30px;
+	border: 2px solid #fff;
+	background: transparent;
+}
+.contact .btn:focus
+{
+box-shadow: none !important
+}
+.contact .btn:hover
+{
+	border: 2px solid #000 !important;
+	background: #000 !important;
+	transition: 0.6s;
+}
+.contact .btn .fa
+{
+	margin-right: 10px;
+}
+.footer
+{
+	background: #000;
+	height: 50px;
+	margin-top: 50px;
+	color: #fff;
+	padding-top: 10px;
+}
+
+
+.deco{
+	text-decoration: none !important;
+}
+
